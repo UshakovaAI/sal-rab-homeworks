@@ -4,7 +4,7 @@ function renderCartItem(item) {
     // Задание №3.1. Формирование строки корзины
     
     let sum = product['count'] * product['price'];
-    let itemCountText = product['count'] + '` × ' + product['price'] + ' ₽ = ' + sum + ' ₽';
+    let itemCountText = product['count'] + ' × ' + product['price'] + ' ₽ = ' + sum + ' ₽';
 
     // Конец решения задания №3.1.
 
